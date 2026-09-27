@@ -1,0 +1,37 @@
+===========================================
+EVIDENCIA GA7-220501096-AA3-EV01
+Codificación de módulos del software
+===========================================
+
+Aprendiz: Jesica del Carmen Quintero Martínez
+Programa: Análisis y Desarrollo de Software
+Institución: SENA
+Fecha: Septiembre 2026
+
+-------------------------------------------
+ENLACE AL REPOSITORIO DE GITHUB
+-------------------------------------------
+https://github.com/quinteromartinezje-commits/parqueadero-sena
+
+-------------------------------------------
+DESCRIPCIÓN DEL MÓDULO
+-------------------------------------------
+Módulo: Configuración de Tarifas (CU-09)
+Tecnologías: PHP 8.4, Laravel 13, MySQL 8.0, HTML5, CSS3, JavaScript
+Arquitectura: MVC (Modelo-Vista-Controlador)
+
+Funcionalidades implementadas:
+- CRUD completo (Crear, Leer, Actualizar, Eliminar tarifas)
+- Validaciones de valores mayores a $0
+- Manejo de errores con modales personalizados
+- Conexión a base de datos MySQL mediante Eloquent ORM
+- Diseño responsivo y accesible
+
+-------------------------------------------
+INSTRUCCIONES DE INSTALACIÓN
+-------------------------------------------
+1. Clonar el repositorio
+2. Ejecutar: composer install
+3. Configurar archivo .env con credenciales de MySQL
+4. Ejecutar: php artisan key:generate
+5. Acceder en: http://parqueadero-sena.test/tarifas
