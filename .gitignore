@@ -1,0 +1,31 @@
+# Dependencias de Laravel
+/vendor/
+/node_modules/
+
+# Archivos de entorno (contienen contraseñas)
+.env
+.env.backup
+.env.production
+
+# Logs
+/storage/logs/*.log
+
+# Caché de Laravel
+/bootstrap/cache/*.php
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
